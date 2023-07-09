@@ -7,7 +7,7 @@ public class Student: IEquatable<Student>, IEquatable<object>
     private readonly string _middlename;
 
     private readonly string _group;
-    private int _course;
+    public int Course => int.Parse(_group.Substring(_group.IndexOf('-') + 1, 1));
     public enum practice_course_mode : int
     {
         C,
@@ -29,19 +29,7 @@ public class Student: IEquatable<Student>, IEquatable<object>
         _middlename = middlename ?? throw new ArgumentNullException(nameof(middlename));
         _group = group ?? throw new ArgumentNullException(nameof(group));
         _practice_course = practice_course;
-
-
-        int count = 0;
-        foreach (char i in group)
-        {
-            if (count == 1)
-            {
-                _course = i - '0';
-                break;
-            }
-            if (i == '-') count++;
-
-        }
+        
     }
 
     public string Surname
@@ -68,11 +56,7 @@ public class Student: IEquatable<Student>, IEquatable<object>
     {
         get => _practice_course;
     }
-
-    public int Course
-    {
-        get => _course;
-    }
+    
 
 
     public override string ToString()
@@ -87,7 +71,7 @@ public class Student: IEquatable<Student>, IEquatable<object>
 
     public override bool Equals(object? obj)
     {
-        if (obj == null) return false;
+       
 
         if (obj is Student std)
         {
@@ -97,22 +81,10 @@ public class Student: IEquatable<Student>, IEquatable<object>
         return false;
     }
 
-    public bool Equals(Student std)
+    public bool Equals(Student? std)
     {
         if (std == null) return false;
 
         return _name.Equals(std._name) && _surname.Equals(std._surname) && _middlename.Equals(std._middlename) && _group.Equals(std._group) && _practice_course == std._practice_course;
     }
-
-    // bool IEquatable<object>.Equals(object? other)
-    // {
-    //     if (other == null) return false;
-    //
-    //     if (other is Student std)
-    //     {
-    //         return Equals(std);
-    //     }
-    //
-    //     return false;
-    // }
 }
