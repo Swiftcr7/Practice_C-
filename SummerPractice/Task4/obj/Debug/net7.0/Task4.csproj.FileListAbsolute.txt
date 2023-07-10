@@ -1,0 +1,15 @@
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\bin\Debug\net7.0\Task4.exe
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\bin\Debug\net7.0\Task4.deps.json
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\bin\Debug\net7.0\Task4.runtimeconfig.json
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\bin\Debug\net7.0\Task4.dll
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\bin\Debug\net7.0\Task4.pdb
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.dll
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\refint\Task4.dll
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.pdb
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\Task4.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Practice_C-\SummerPractice\Task4\obj\Debug\net7.0\ref\Task4.dll
